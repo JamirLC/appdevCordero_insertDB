@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form action="/save" method="POST">
+      <label for="fname">firstname</label>
+      <input type="text" name="fname" placeholder="firstname" required />
+      <br />
+      <label for="lname">lastname</label>
+      <input type="text" name="lname" placeholder="lasttname" required />
+      <br />
+      <label for="age">age</label>
+      <input type="text" name="age" placeholder="age" required />
+      <br />
+      <label for="address">address</label>
+      <input type="text" name="address" placeholder="address" required />
+      <br />
+      <input type="submit" name="save" />
+    </form>
+  </body>
 </html>
